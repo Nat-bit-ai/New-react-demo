@@ -1,9 +1,9 @@
-import ToggleApp from "./toggle.jsx";
+import ColorPicker from "./color.jsx";
 
 function App() {
   return (
     <div>
-      <ToggleApp />
+      <ColorPicker />
     </div>
   );
 }
