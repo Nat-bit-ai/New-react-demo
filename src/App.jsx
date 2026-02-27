@@ -4,7 +4,8 @@ function App() {
   return (
     <div>
       <ColorPicker />
-      <ColorPicker />
+      
+
     </div>
   );
 }
