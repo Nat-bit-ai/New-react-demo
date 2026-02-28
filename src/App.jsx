@@ -1,9 +1,10 @@
 import ColorPicker from "./color.jsx";
+import ProfilePic from "./pic.jsx";
 
 function App() {
   return (
     <div>
-      <ColorPicker />
+      <ProfilePic />
       
 
     </div>
