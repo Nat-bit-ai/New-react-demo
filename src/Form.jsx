@@ -25,6 +25,7 @@ function MyForm() {
     setName("");
     setAge("");
     setIsEmployed(false);
+    console.log("Data Submitted")
   };
 
   return (
