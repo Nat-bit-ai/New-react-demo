@@ -4,11 +4,12 @@ import Button from "./clickBtn.jsx";
 import MyForm from "./Form.jsx";
 import Counter from "./counter.jsx";
 import DigitalClock from "./digitalClock.jsx";
+import OTPGenerator  from "./otpGenerator.jsx";
 
 function App() {
   return (
     <div>
-      <DigitalClock />
+      <OTPGenerator />
     </div>
   );
 }
