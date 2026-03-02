@@ -12,8 +12,12 @@ function DigitalClock() {
   }, []);
 
   const formatTime = (date) => {
-    return date.toLocaleTimeString();
-  };
+  return date.toLocaleTimeString("en-GB", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+};
 
   return (
     <div style={styles.container}>
@@ -21,7 +25,6 @@ function DigitalClock() {
     </div>
   );
 }
-
 const styles = {
   container: {
     height: "100vh",
